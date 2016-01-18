@@ -30,7 +30,7 @@ Install NPM Packages:
 npm install
 ```
 
-*IMPORTANT* - You need [Node.js](https://nodejs.org) >= 4.0 to run the tests.  As they use 'jsdom' which needs some ES6 features:
+Run tests:
 
 ```
 npm test
