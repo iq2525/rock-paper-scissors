@@ -55,9 +55,6 @@ describe('components', () => {
 
       const { output, props } = setup(customProps)
 
-      console.log('tree:', output.props.children[1]
-                      .props.children.props.children)
-
       const button = output.props.children[1]
                       .props.children.props.children
 
