@@ -1,0 +1,2 @@
+export const SET_PLAYER_CHOICE = 'SET_PLAYER_CHOICE'
+export const START_NEW_GAME = 'START_NEW_GAME'
