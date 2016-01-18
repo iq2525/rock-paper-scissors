@@ -23,25 +23,18 @@ Available actions:
 ## Installation
 
 1. Install NPM Packages:
-
 ```
 npm install
 ```
-
 2. *IMPORTANT* - You need [Node.js](https://nodejs.org) >= 4.0 to run the tests.  As they use 'jsdom' which needs some ES6 features:
-
 ```
 npm test
 ```
-
 3. Build code and run server:
-
 ```
 npm start
 ```
-
 4. Go to the following URL in your browser:
-
 [https://localhost:3000](https://localhost:3000)
 
 ## Main libraries used
