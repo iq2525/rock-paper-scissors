@@ -4,7 +4,7 @@ An app that allows you to play Rock, Paper, Scissors against the computer.
 
 [React.js](https://facebook.github.io/react/) used to create View layer.
 * App.js - The main container component.
-* Header.js, MainSection.js, NewGame.js, RpsItem.js - Display components.
+* Header.js, MainSection.js, NewGame.js, RpsItem.js, Footer.js - Display components.
 
 [Redux](https://github.com/rackt/redux) manages the state in the app.  A 'game' Reducer manages game logic and update the state.  View layer cannot update state directly.  They must invoke actions.
 
