@@ -1,5 +1,7 @@
 # [Rock, Paper, Scissors](https://github.com/iq2525/rock-paper-scissors)
 
+[GitHub Link](https://github.com/iq2525/rock-paper-scissors)
+
 An app that allows you to play Rock, Paper, Scissors against the computer.
 
 [React.js](https://facebook.github.io/react/) used to create View layer.
