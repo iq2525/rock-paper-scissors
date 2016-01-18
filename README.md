@@ -20,7 +20,7 @@ Available actions:
 
 ## Software Requirements
 
-[Node.js](https://nodejs.org) >= v4.0 - Required to build the app.  You must have at least v4.0 to run the tests.
+[Node.js](https://nodejs.org) v4 - Required to build the app.  This app has been tested with Node v5.  May still work with older versions.
 
 ## Installation
 
