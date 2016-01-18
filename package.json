@@ -1,7 +1,8 @@
 {
   "name": "rock-paper-scissors",
-  "version": "0.0.0",
-  "description": "Rock, Paper, Scissors App",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A Rock, Paper, Scissors App.  Created using React.js, Rudux, Bourbon & Neat.",
   "scripts": {
     "start": "node server.js",
     "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
@@ -9,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/iq2525/rock-paper-scissors"
   },
-  "homepage": "http://rackt.github.io/redux",
+  "homepage": "https://github.com/iq2525/rock-paper-scissors",
   "dependencies": {
     "classnames": "^2.1.2",
     "react": "^0.14.0",
