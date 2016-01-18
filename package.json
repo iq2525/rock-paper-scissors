@@ -15,6 +15,7 @@
   "homepage": "https://github.com/iq2525/rock-paper-scissors",
   "dependencies": {
     "classnames": "^2.1.2",
+    "node-jsdom": "^3.1.5",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-redux": "^4.0.0",
@@ -31,7 +32,7 @@
     "express": "^4.13.3",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^1.7.0",
-    "jsdom": "^5.6.1",
+    "jsdom": "^3.1.2",
     "mocha": "^2.2.5",
     "node-libs-browser": "^0.5.2",
     "node-neat": "^1.7.2",
