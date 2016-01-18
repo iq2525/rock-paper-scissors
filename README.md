@@ -2,6 +2,10 @@
 
 An app that allows you to play Rock, Paper, Scissors against the computer.
 
+[Redux](https://github.com/rackt/redux) manages the state in the app.  
+
+[Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used provide to grid work and make responsive page.  
+
 ## Software Requirements
 
 [Node.js](https://nodejs.org) >= v4.0 - Required to build the app.  You must have at least v4.0 to run the tests.
@@ -40,6 +44,7 @@ Go to the folling URL in your browser: [https://localhost:3000](https://localhos
 ## Software Overview
 
 Flow of data & updates is managed by [Redux](https://github.com/rackt/redux).  The structure is as follows:
+
 [Action] -> [Reducer] -> [Container Component] -> [React Component]
 
 ## License
