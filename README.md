@@ -34,7 +34,7 @@ Go to the folling URL in your browser: [https://localhost:3000](https://localhos
 
 ## Main libraries used
 
-* [React.js](https://facebook.github.io/react/) - View layer created with components..
+* [React.js](https://facebook.github.io/react/) - Used to create view layer using React components.
 * [Redux](https://github.com/rackt/redux) - A predictable state container for JavaScript apps.
 * [SASS](http://sass-lang.com/) - CSS Preprocessor.
 * [Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used provide to grid work and make responsive page.  
@@ -45,7 +45,7 @@ Go to the folling URL in your browser: [https://localhost:3000](https://localhos
 
 Flow of data & updates is managed by [Redux](https://github.com/rackt/redux).  The structure is as follows:
 
-[Action] -> [Reducer] -> [Container Component] -> [React Component]
+[Action] -> [Reducer] -> [React Container Component] -> [React Display Component]
 
 ## License
 
