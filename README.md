@@ -2,9 +2,13 @@
 
 An app that allows you to play Rock, Paper, Scissors against the computer.
 
-[Redux](https://github.com/rackt/redux) manages the state in the app.
+[React.js](https://facebook.github.io/react/) used to create View layer.
+* App.js - The main container component.
+* Header.js, MainSection.js, NewGame.js, RpsItem.js - Display components.
 
-[Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used provide to grid work and make responsive page.  
+[Redux](https://github.com/rackt/redux) manages the state in the app.  A 'game' Reducer manages game logic and update the state.  View layer cannot update state directly.  They must invoke actions.
+
+[Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used provide to grid framework and enable a Responsive web application.  
 
 ## Software Requirements
 
@@ -45,9 +49,11 @@ npm start
 * [Mocha](https://mochajs.org/) & [Expect](https://github.com/mjackson/expect/) - Unit testing framework & assertion library.
 * [React Test Utils](https://facebook.github.io/react/docs/test-utils.html) - Allows test rendering of React components.
 
-## Software Overview
+## Software Data Flow
 
-Flow of data & updates is managed by [Redux](https://github.com/rackt/redux).  The structure is as follows:
+Flow of data & updates is managed by [Redux](https://github.com/rackt/redux).  Data only flows in one direction.
+
+The structure is as follows:
 
 [Action] -> [Reducer] -> [React Container Component] -> [React Display Component]
 
