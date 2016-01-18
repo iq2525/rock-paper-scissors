@@ -14,7 +14,7 @@ class Header extends Component {
           </p>
 
           <p className="header__description">
-            Codes is available on GitHub: <a href="https://en.wikipedia.org/wiki/Rock-paper-scissors">Wikipedia</a>.
+            Codes is available on <a href="https://github.com/iq2525/rock-paper-scissors">GitHub</a>.
           </p>
       </header>
     )
