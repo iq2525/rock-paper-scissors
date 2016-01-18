@@ -6,9 +6,15 @@ An app that allows you to play Rock, Paper, Scissors against the computer.
 * App.js - The main container component.
 * Header.js, MainSection.js, NewGame.js, RpsItem.js, Footer.js - Display components.
 
-[Redux](https://github.com/rackt/redux) manages the state in the app.  A 'game' Reducer manages game logic and update the state.  View layer cannot update state directly.  They must invoke actions.
+[Redux](https://github.com/rackt/redux) manages the state in the app.  A 'game' Reducer manages game logic and updates the state.  State is not mutable.  Instead, new state objects are created.
 
-[Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used provide to grid framework and enable a Responsive web application.  
+View layer cannot update state directly.  They must invoke actions.
+
+Available actions:
+* START_NEW_GAME
+* SET_PLAYER_CHOICE
+
+[Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used provide to grid framework and make application responsive for mobile and desktop.  
 
 ## Software Requirements
 
