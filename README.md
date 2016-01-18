@@ -51,7 +51,7 @@ Go to the following URL in your browser:
 * [Babel](https://babeljs.io/) - Transforms ES6 syntax so it can be used on older browsers and compiles React JSX into JavaScript.
 * [Webpack](https://webpack.github.io/) - Module bundler and build tool.
 * [SASS](http://sass-lang.com/) - CSS Preprocessor.
-* [Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used to provide grid work and make responsive page.  
+* [Bourbon](http://bourbon.io/) & [Neat](http://neat.bourbon.io/) - Used to provide grid framework and make responsive page.  
 * [Mocha](https://mochajs.org/) & [Expect](https://github.com/mjackson/expect/) - Unit testing framework & assertion library.
 * [React Test Utils](https://facebook.github.io/react/docs/test-utils.html) - Allows test rendering of React components.
 
